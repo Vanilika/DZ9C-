@@ -13,11 +13,11 @@ void SumNumbers (int m, int n, int sum)
 
 {
     if (m > n)
-   {
-    System.Console.WriteLine($"Cумма от М до N =  {sum}");
-    return;
+    {
+        System.Console.WriteLine($"Cумма от М до N =  {sum}");
+        return;
     }
-sum = sum + (m++);
+    sum = sum + (m++);
 
  SumNumbers(m, n, sum);
 }
